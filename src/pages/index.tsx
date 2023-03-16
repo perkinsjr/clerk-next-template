@@ -15,14 +15,12 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <div className={styles.description}>
-          <p>
             Add any Clerk stuff here, currently the following are public pages.
             <ul>
-              <li><a href="/sign-in">Sign In</a></li>
-              <li><a href="/sign-up">Sign Up</a></li>
-              <li><a href="/">This page</a></li>
+              <li>Sign In</li>
+              <li>Sign Up</li>
+              <li>This page</li>
             </ul>
-          </p>           
         </div>
       </main>
     </>
